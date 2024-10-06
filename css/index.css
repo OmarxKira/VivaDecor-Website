@@ -1,0 +1,81 @@
+body{
+    font-family: "Inter", system-ui;
+}
+.nav .nav-item .nav-link{
+    color: black !important;
+    font-weight: 400;
+}
+
+.nav .nav-item .active{
+    font-weight: 600 !important;
+}
+
+.btn-dark ,.bg-dark{
+    background-color: #1F1F1F;
+}
+
+.btn{
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.text-dark{
+    color: #1F1F1F;
+}
+
+.image-container {
+    position: relative;
+  }
+  
+  .btn-download {
+    position: absolute;
+    right: 0;
+    bottom:0;
+    cursor: pointer;
+    padding: 30px 30px;
+  }
+
+ 
+
+  .text-gray , .info h2+p{
+    color: #545454;
+  }
+
+
+  .line{
+    width: 80px;
+    height: 2px;
+    margin-right: 20px;
+    background-color: black;
+  }
+
+  .services-part{
+    font-size: 15px;
+  }
+
+  .services-part h2{
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 30px;
+  }
+
+.ic{
+    height: 35%;
+    width: 35%;
+    padding-right: 20px;
+}
+
+.bot-line{
+   border-bottom: 1px solid #DADADA;
+}
+
+
+
+@media (max-width: 440px) {
+  .testimonial {
+      flex-direction: column;
+  }
+
+}
